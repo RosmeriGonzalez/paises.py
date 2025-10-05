@@ -24,8 +24,6 @@ def fmt_population(n):
 def pick_random_country(countries):
     return random.choice(countries)
 
-st.title("REST Countries — Card")
-
 # Alert placeholder
 alert = st.empty()
 
